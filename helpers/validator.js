@@ -11,7 +11,7 @@ let passwordValidator = [
   validate({
     validator : `isLength`,
     arguments : 5,
-    message : `Password at least ${this.arguments} character`
+    message : `Password at least 5 character`
   })
 ]
 module.exports = {
